@@ -21,7 +21,7 @@ document
   .getElementById('downloadButton')
   .addEventListener('click', function(){
     const link = document.createElement('a');
-    link.href = "/downloadsFiles/TenOrLose.rar";
+    link.href = "./downloadsFiles/TenOrLose.rar";
     link.download = "TenOrLose.rar";
     document.body.appendChild(link);
     link.click();
